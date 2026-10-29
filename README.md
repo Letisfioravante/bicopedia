@@ -1,6 +1,6 @@
 # Bichopédia
 
-Enciclopédia de animais em português, com 40 fichas ilustradas, filtros por grupo e habitat, pesquisa, favoritos locais e informações sobre longevidade, curiosidades e conservação.
+Enciclopédia de animais.
 
 Site: https://bichopedia-mundo-descobertas.vercel.app/
 
@@ -24,4 +24,3 @@ O site é estático e não exige instalação de dependências nem etapa de comp
 
 Os dados são educativos e aproximados. O catálogo inclui espécies, grupos e animais domésticos, e não representa todos os animais existentes. Informações de cuidado não substituem orientação veterinária. Cada ficha contém links para leitura adicional. As imagens da Wikimedia Commons mantêm suas licenças individuais; consulte `dist/creditos.html` antes de reutilizar. As fontes Google Fonts são carregadas externamente, com fontes locais alternativas.
 
-Os favoritos ficam apenas no navegador do visitante. O site não exige conta e não tem servidor de dados.
