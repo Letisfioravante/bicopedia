@@ -2,7 +2,7 @@
 
 Enciclopédia de animais em português, com 40 fichas ilustradas, filtros por grupo e habitat, pesquisa, favoritos locais e informações sobre longevidade, curiosidades e conservação.
 
-Site: https://bichopedia-mundo-animal-29out.gpt-ibf-6393.chatgpt.site
+Site: https://bichopedia-mundo-descobertas.vercel.app/
 
 ## Abrir localmente
 
@@ -10,7 +10,7 @@ Com Node.js instalado, execute `npm start` e abra http://127.0.0.1:4173.
 
 ## Hospedar
 
-O site é estático e não exige instalação de dependências nem etapa de compilação. Publique a pasta `dist` em um serviço de hospedagem estática. A publicação pelo Sites usa a configuração `.openai/hosting.json`.
+O site é estático e não exige instalação de dependências nem etapa de compilação. Publique a pasta `dist` em um serviço de hospedagem estática. A configuração `vercel.json` usa a pasta `dist` para a hospedagem na Vercel. A publicação atual é feita por envio direto dos arquivos.
 
 ## Conteúdo
 
