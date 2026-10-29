@@ -1,0 +1,27 @@
+# Bichopédia
+
+Enciclopédia de animais em português, com 40 fichas ilustradas, filtros por grupo e habitat, pesquisa, favoritos locais e informações sobre longevidade, curiosidades e conservação.
+
+Site: https://bichopedia-mundo-animal-29out.gpt-ibf-6393.chatgpt.site
+
+## Abrir localmente
+
+Com Node.js instalado, execute `npm start` e abra http://127.0.0.1:4173.
+
+## Hospedar
+
+O site é estático e não exige instalação de dependências nem etapa de compilação. Publique a pasta `dist` em um serviço de hospedagem estática. A publicação pelo Sites usa a configuração `.openai/hosting.json`.
+
+## Conteúdo
+
+- `dist/index.html`: estrutura da página.
+- `dist/style.css`: visual e adaptação a celulares.
+- `dist/app.js`: catálogo original, filtros, fichas e favoritos.
+- `dist/extra-animals.js`: 24 fichas adicionais.
+- `extra-animals.json`: dados editáveis das fichas adicionais.
+- `dist/assets`: fotografias locais e créditos.
+- `dist/creditos.html`: autoria e licenças das imagens.
+
+Os dados são educativos e aproximados. O catálogo inclui espécies, grupos e animais domésticos, e não representa todos os animais existentes. Informações de cuidado não substituem orientação veterinária. Cada ficha contém links para leitura adicional. As imagens da Wikimedia Commons mantêm suas licenças individuais; consulte `dist/creditos.html` antes de reutilizar. As fontes Google Fonts são carregadas externamente, com fontes locais alternativas.
+
+Os favoritos ficam apenas no navegador do visitante. O site não exige conta e não tem servidor de dados.
